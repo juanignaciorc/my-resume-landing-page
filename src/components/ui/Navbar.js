@@ -1,5 +1,5 @@
 import React from 'react'
-import {Link, NavLink} from 'react-router-dom'
+import {NavLink} from 'react-router-dom'
 
 export const Navbar = () => {
     return (
@@ -24,9 +24,7 @@ export const Navbar = () => {
                     <li className="nav-item">
                         <NavLink exact activeClassName="active" className="nav-item nav-link" to="/interests">Interests</NavLink>
                     </li>
-                    <li className="nav-item">
-                        <Link className="nav-link" to="/resume" target="_blank">Resume</Link>
-                    </li>
+                    
                 </ul>
             </div>
         </nav>
